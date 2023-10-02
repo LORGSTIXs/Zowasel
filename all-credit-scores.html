@@ -983,11 +983,11 @@
 							<span class="nav-text">Access</span>
 						</a>
 						<ul aria-expanded="false">
-							
-							<li><a href="#">Add Farmer</a></li>
-							<li><a href="#">View Farmers</a></li>
-							<li><a href="#">DVS</a></li>
-							<li><a href="#">PDS</a></li></ul>
+							<li><a href="/add-farmer.html">Add Farmer</a></li>
+							<li><a href="/farmer.html">View Farmers</a></li>
+							<li><a href="/all-dvs-score.html">DVS</a></li>
+							<li><a href="/all-credit-scores.html">PDS</a></li>
+						</ul>
 					</li>
 					<li class="my-2">
 						<a href="task.html" class="" aria-expanded="false">
@@ -1063,9 +1063,32 @@
         <div class="content-body">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xl-12 col-xxl-12">
-                       
+					<!-- Credit scores  -->
+					<div class="col p-2 m-3 ms-4">
+                       <h2>All Credit Scores</h2>
 					</div>
+					<!-- Credit score  -->
+				</div>
+				
+				<!-- Table Section -->
+				<div class="shadow p-5 mt-5 ms-4 select">
+					<div class="container">
+						  <div class="row">
+							<div class="col-1 fw-bold ms-5">FARMER</div>
+							<div class="col-1 fw-bold ms-5">GRADE</div>
+							<div class="col-1 fw-bold ms-5">SCORE</div>
+							<div class="col-1 fw-bold ms-5">AMT. REQUESTED</div>
+							<div class="col-1 fw-bold ms-5">AMT. SUGGESTED</div>
+							<div class="col-1 fw-bold ms-5">LOAN</div>
+							<div class="col-1 fw-bold ms-5">ACTION</div>
+						  </div>
+					  </div>
+				<!-- Table Section -->
+				<!-- Records section -->
+					  <div class="p-5 ms-3 d-flex justify-content-center">
+						<h4>No farmers found</h4>
+					  </div>
+					  <!-- Records section -->
 				</div>
 			</div>
         </div>

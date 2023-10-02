@@ -983,11 +983,11 @@
 							<span class="nav-text">Access</span>
 						</a>
 						<ul aria-expanded="false">
-							
-							<li><a href="#">Add Farmer</a></li>
-							<li><a href="#">View Farmers</a></li>
-							<li><a href="#">DVS</a></li>
-							<li><a href="#">PDS</a></li></ul>
+							<li><a href="/add-farmer.html">Add Farmer</a></li>
+							<li><a href="/farmer.html">View Farmers</a></li>
+							<li><a href="/all-dvs-score.html">DVS</a></li>
+							<li><a href="/all-credit-scores.html">PDS</a></li>
+						</ul>
 					</li>
 					<li class="my-2">
 						<a href="task.html" class="" aria-expanded="false">
@@ -1013,12 +1013,12 @@
 							<span class="nav-text">Coming Soon</span>
 						</a>
 						<ul aria-expanded="false">
-							
 							<li><a href="#">Precision Ag</a></li>
 							<li><a href="#">Sutainable Ag</a></li>
 							<li><a href="#">Traceabilty Ag</a></li>
 							<li><a href="#">Subscription</a></li>
-							<li><a href="#">API</a></li></ul>
+							<li><a href="#">API</a></li>
+						</ul>
 					</li>
 					<li class="my-2">
 						<a class="has-arrow " href="javascript:void(0);" aria-expanded="false">
@@ -1063,9 +1063,34 @@
         <div class="content-body">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xl-12 col-xxl-12">
-                       
+					<!-- Add Farmer  -->
+					<div class="col p-2 m-3 ms-4">
+                       <h2>Add Farmer(s)</h2>
 					</div>
+					<div class="col-lg-4 p-4">
+						<button type="button" class="btn btn-warning view"><a href="farmer.html"><span class="text-white">View Farmers</span></a></button>
+						<button type="button" class="btn btn-primary up"><a href="#"><span class="text-white">Batch Format</span></a></button>
+					</div>
+					<!-- Add Farmer  -->
+				</div>
+				<!-- Upload Section -->
+				<div class="shadow p-2 mt-5 ms-4 select">
+					<div class="container">
+						<div class="form-group d-flex justify-content-center align-items-center">
+						   <div class="input-group mb-3 " style="width: 970px;">
+							  <input type="text" class="form-control" disabled placeholder="Select your file" aria-label="Select your file" aria-describedby="basic-addon1" style="background-color: rgba(151, 153, 152, 0.993);">
+							<div>
+							   <button class="input-group-text btn btn-primary" style="width: 100px;"><i class="fas fa-search"></i> UPLOAD</button>
+							</div>
+						   </div>
+						</div>
+					  </div>
+				<!-- Upload Section -->
+					<!-- Upload button -->
+					  <div class="p-3 ms-3">
+						<button type="button" class="btn btn-primary up">Upload</button>
+					  </div>
+					  <!-- Upload button -->
 				</div>
 			</div>
         </div>
